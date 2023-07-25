@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/alx-react/0x01-react_intro/task_4/dashboard/static/css/main.bddcb836.css",
+    "main.js": "/alx-react/0x01-react_intro/task_4/dashboard/static/js/main.5c0ed148.js",
+    "static/media/hlogo.jpg": "/alx-react/0x01-react_intro/task_4/dashboard/static/media/hlogo.24bab5d633e36ca8d17e.jpg",
+    "index.html": "/alx-react/0x01-react_intro/task_4/dashboard/index.html",
+    "main.bddcb836.css.map": "/alx-react/0x01-react_intro/task_4/dashboard/static/css/main.bddcb836.css.map",
+    "main.5c0ed148.js.map": "/alx-react/0x01-react_intro/task_4/dashboard/static/js/main.5c0ed148.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bddcb836.css",
+    "static/js/main.5c0ed148.js"
+  ]
+}
