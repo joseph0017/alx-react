@@ -17,4 +17,4 @@ function updateCounter() {
     btnCounter.html(`${updateCount} clicks on the button`);
 }
 
-doll('button').on('click', _.debounce(updateCounter, 619))
+doll('button').on('click', _.debounce(updateCounter, 500))
