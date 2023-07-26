@@ -30,7 +30,7 @@ module.exports = {
     path: path.resolve(__dirname, 'public')
     },
     devServer: {
-      static: path.resolve(__dirname, 'public'),
+      static: path.resolve(__dirname, './public'),
       compress: true,
       port: 8564,
       hot: true,
