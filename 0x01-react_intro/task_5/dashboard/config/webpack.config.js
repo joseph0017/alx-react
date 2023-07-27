@@ -12,7 +12,7 @@ module.exports = {
     },
     devServer: {
       hot: true,
-      contentBase: path.resolve(__dirname, 'dist'),
+      static: path.resolve(__dirname, 'dist'),
       compress: true,
       port: 8564,
     },
@@ -40,6 +40,11 @@ module.exports = {
               },
             },
           ],
+        },
+        {
+          test: /\.(js|jsx)$/,
+          exclude: /node_modules/,
+          use: ["babel-loader"],
         },
       ]
     },
