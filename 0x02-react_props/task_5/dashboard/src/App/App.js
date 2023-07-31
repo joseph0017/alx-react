@@ -11,7 +11,7 @@ import { getLatestNotification } from '../utils/utils';
 
 import PropTypes from "prop-types";
 
-function App(isLoggedIn) {
+function App({isLoggedIn}) {
   const listCourses = [
     {id: 1, name: 'ES6', credit: 60},
     {id: 2, name: 'Webpack', credit: 20},
@@ -30,7 +30,6 @@ function App(isLoggedIn) {
       <div className="App">
         <Header />
         {isLoggedIn ? <CourseList listCourses={listCourses} /> : <Login />}
-        <Login />
         <Footer />
       </div>
     </>

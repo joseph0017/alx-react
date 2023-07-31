@@ -23,11 +23,12 @@ const Notifications = ({displayDrawer, listNotifications }) => {
           </button>
           <p>Here is the list of notifications</p>
           <ul>
-            {listNotifications ? listNotifications.map((item) => ((
-              <NotificationItem key={item.id} type={item.type} value={item.value} html={item.html} />
-            ))) : (
+            {listNotifications === 0 ?  (
               <NotificationItem value="No new notification for now" />
-            )
+            ) :
+            listNotifications.map((item) => ((
+              <NotificationItem key={item.id} type={item.type} value={item.value} html={item.html} />
+            )))
             }
           </ul>
       </div>

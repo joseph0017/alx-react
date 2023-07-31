@@ -10,7 +10,7 @@ import CourseList from '../CourseList/CourseList';
 import PropTypes from "prop-types";
 
 
-function App(isLoggedIn) {
+function App({isLoggedIn}) {
   return (
     <>
       <Notifications />
