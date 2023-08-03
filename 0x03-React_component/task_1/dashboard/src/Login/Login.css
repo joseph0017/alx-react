@@ -1,0 +1,12 @@
+.App-login {
+    height: 100vh;
+    border-bottom: 3px solid #e0354b;
+  }
+  
+  .App-login p {
+    margin-left: 30px;
+  }
+  .App-login input, label, button {
+    margin-left: 30px;
+  }
+  
