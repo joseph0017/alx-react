@@ -1,0 +1,28 @@
+.Notifications {
+    position: absolute;
+    right: 20px;
+    border: 3px dashed #e0354b;
+    padding: 3px;
+}
+.Notifications p {
+    font-weight: bold;
+}
+
+[data-notification-type="default"] {
+    color: blue;
+}
+
+[data-urgent],[data-notification-type="urgent"] {
+    color: #e0354b;
+}
+
+.menuItem {
+    text-align: right;
+    margin-right: 100px;
+    font-weight: bold;
+}
+
+.notification-header {
+  display: flex;
+  justify-content: space-between;
+}
